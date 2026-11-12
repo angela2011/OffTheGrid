@@ -12,7 +12,7 @@ python -m pytest -q
 python -m simulation.demo        
 ```
 
-## How it works (basic workflow)
+## Basic workflow
 ```
 Driver phone (Wallet)                 Charger (offline)                     Backend (Ledger)
   holds voucher + key  --challenge-->  verify voucher locally
